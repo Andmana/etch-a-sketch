@@ -9,11 +9,19 @@
         <script src="./script.js" defer></script>
     </head>
     <body>
-        <header></header>
+        <header>
+            <nav>
+                <h1>Etch a Sketch</h1>
+            </nav>
+        </header>
 
         <main>
-            <div id="Container">
-                <div id="Boxes"></div>
+            <div id="Option" class="option">
+                <button type="button" id="Change">Change grid size</button>
+                <button type="button" id="Clear">Clear</button>
+            </div>
+            <div id="Container" class="container">
+                <div id="Grid" class="grid"></div>
             </div>
         </main>
     </body>
