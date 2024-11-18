@@ -1,0 +1,23 @@
+#Boxes {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+
+    border: black solid 0.5px;
+}
+
+.boxes-row {
+    flex: 1;
+    display: flex;
+}
+
+.boxes-col {
+    flex: 1;
+    background-color: white;
+    border: black solid 0.5px;
+}
+
+.boxes-col:hover {
+    background-color: black;
+}
